@@ -6,6 +6,8 @@
 
 # asteroid
 
+## modify changeUser function for User Creating
+
 A javascript client (node) for a Meteor backend.
 
 > `2.x.x` is out, find out what changed in the [CHANGELOG](./CHANGELOG.md)
