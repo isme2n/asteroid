@@ -6,7 +6,7 @@
 
 # asteroid
 
-## modify changeUser function for User Creating
+## modify createUser function for User Creating
 
 A javascript client (node) for a Meteor backend.
 
