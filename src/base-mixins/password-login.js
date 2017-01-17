@@ -12,12 +12,10 @@ import {onLogin} from "../common/login-method";
 
 export function createUser ({username, email, password}) {
     const options = {
-        password,
-        user: {
-            username,
-            email
-        }
-    };
+        password
+        username,
+        email
+     };
     return this.call("createUser", options).then(onLogin.bind(this));
 }
 
