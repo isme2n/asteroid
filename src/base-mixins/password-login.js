@@ -12,7 +12,7 @@ import {onLogin} from "../common/login-method";
 
 export function createUser ({username, email, password}) {
     const options = {
-        password
+        password,
         username,
         email
      };
