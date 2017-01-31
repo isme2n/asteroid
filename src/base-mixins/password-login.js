@@ -10,11 +10,12 @@ import {onLogin} from "../common/login-method";
 *   Public methods
 */
 
-export function createUser ({username, email, password}) {
+export function createUser ({username, email, password, profile}) {
     const options = {
         password,
         username,
-        email
+        email,
+        profile
      };
     return this.call("createUser", options).then(onLogin.bind(this));
 }

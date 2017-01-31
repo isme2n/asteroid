@@ -1,6 +1,6 @@
 {
-  "name": "asteroid",
-  "version": "2.0.3",
+  "name": "asteroid-isme2n",
+  "version": "2.0.5",
   "description": "Alternative Meteor client",
   "main": "lib/asteroid.js",
   "scripts": {
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mondora/asteroid.git"
+    "url": "https://github.com/isme2n/asteroid.git"
   },
   "keywords": [
     "ddp",
@@ -28,9 +28,9 @@
   "author": "Paolo Scanferla <paolo.scanferla@mondora.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mondora/asteroid/issues"
+    "url": "https://github.com/isme2n/asteroid/issues"
   },
-  "homepage": "https://github.com/mondora/asteroid",
+  "homepage": "https://github.com/isme2n/asteroid",
   "devDependencies": {
     "babel-cli": "^6.16.0",
     "babel-core": "^6.17.0",
